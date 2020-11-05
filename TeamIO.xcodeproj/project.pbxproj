@@ -16,6 +16,21 @@
 		D54F27DB2535444D00E89A59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54F27D92535444D00E89A59 /* LaunchScreen.storyboard */; };
 		D54F27E62535444D00E89A59 /* TeamIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F27E52535444D00E89A59 /* TeamIOTests.swift */; };
 		D54F27F12535444D00E89A59 /* TeamIOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F27F02535444D00E89A59 /* TeamIOUITests.swift */; };
+		D54F2800253544D600E89A59 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F27FF253544D600E89A59 /* LoginScreenViewController.swift */; };
+		D54F28032535453400E89A59 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F28022535453400E89A59 /* LoginScreenView.swift */; };
+		D54F2806253545B300E89A59 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F2805253545B300E89A59 /* Extensions.swift */; };
+		D54F280825354B4E00E89A59 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F280725354B4E00E89A59 /* HomeScreenViewController.swift */; };
+		D54F280A25354B6600E89A59 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F280925354B6600E89A59 /* HomeScreenView.swift */; };
+		D554ADCE2536C6130001B199 /* YourDevicesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D554ADCD2536C6130001B199 /* YourDevicesCell.swift */; };
+		D554ADD02536CD1A0001B199 /* DevicesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D554ADCF2536CD1A0001B199 /* DevicesTableView.swift */; };
+		D575268A2547CA0A004A2A84 /* DeviceHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57526892547CA0A004A2A84 /* DeviceHistoryController.swift */; };
+		D575268C2547CAA1004A2A84 /* DeviceHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D575268B2547CAA1004A2A84 /* DeviceHistoryView.swift */; };
+		D57526902547D1FF004A2A84 /* DeviceHistoryTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D575268F2547D1FF004A2A84 /* DeviceHistoryTableView.swift */; };
+		D57526922547D292004A2A84 /* DeviceHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57526912547D292004A2A84 /* DeviceHistoryCell.swift */; };
+		D57526952547D8C3004A2A84 /* ForumScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57526942547D8C3004A2A84 /* ForumScreenController.swift */; };
+		D57526972547D8FB004A2A84 /* ForumSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57526962547D8FB004A2A84 /* ForumSelectionView.swift */; };
+		D57526992547DAF7004A2A84 /* ForumTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57526982547DAF7004A2A84 /* ForumTableView.swift */; };
+		D575269B2547DB57004A2A84 /* ForumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D575269A2547DB57004A2A84 /* ForumCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,21 @@
 		D54F27EC2535444D00E89A59 /* TeamIOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamIOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54F27F02535444D00E89A59 /* TeamIOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamIOUITests.swift; sourceTree = "<group>"; };
 		D54F27F22535444D00E89A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54F27FF253544D600E89A59 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		D54F28022535453400E89A59 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
+		D54F2805253545B300E89A59 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D54F280725354B4E00E89A59 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		D54F280925354B6600E89A59 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		D554ADCD2536C6130001B199 /* YourDevicesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourDevicesCell.swift; sourceTree = "<group>"; };
+		D554ADCF2536CD1A0001B199 /* DevicesTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesTableView.swift; sourceTree = "<group>"; };
+		D57526892547CA0A004A2A84 /* DeviceHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHistoryController.swift; sourceTree = "<group>"; };
+		D575268B2547CAA1004A2A84 /* DeviceHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHistoryView.swift; sourceTree = "<group>"; };
+		D575268F2547D1FF004A2A84 /* DeviceHistoryTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHistoryTableView.swift; sourceTree = "<group>"; };
+		D57526912547D292004A2A84 /* DeviceHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHistoryCell.swift; sourceTree = "<group>"; };
+		D57526942547D8C3004A2A84 /* ForumScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumScreenController.swift; sourceTree = "<group>"; };
+		D57526962547D8FB004A2A84 /* ForumSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumSelectionView.swift; sourceTree = "<group>"; };
+		D57526982547DAF7004A2A84 /* ForumTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumTableView.swift; sourceTree = "<group>"; };
+		D575269A2547DB57004A2A84 /* ForumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +131,9 @@
 		D54F27CB2535444B00E89A59 /* TeamIO */ = {
 			isa = PBXGroup;
 			children = (
+				D54F2804253545A700E89A59 /* Utilities */,
+				D54F28012535452000E89A59 /* Views */,
+				D54F27FE253544C000E89A59 /* Controllers */,
 				D54F27CC2535444B00E89A59 /* AppDelegate.swift */,
 				D54F27CE2535444B00E89A59 /* SceneDelegate.swift */,
 				D54F27D02535444B00E89A59 /* ViewController.swift */,
@@ -129,6 +162,66 @@
 				D54F27F22535444D00E89A59 /* Info.plist */,
 			);
 			path = TeamIOUITests;
+			sourceTree = "<group>";
+		};
+		D54F27FE253544C000E89A59 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D54F27FF253544D600E89A59 /* LoginScreenViewController.swift */,
+				D54F280725354B4E00E89A59 /* HomeScreenViewController.swift */,
+				D57526892547CA0A004A2A84 /* DeviceHistoryController.swift */,
+				D57526942547D8C3004A2A84 /* ForumScreenController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D54F28012535452000E89A59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D57526932547D8AD004A2A84 /* Forum Screen */,
+				D575268E2547D1E6004A2A84 /* Device History */,
+				D575268D2547D1C6004A2A84 /* Home Screen */,
+				D54F28022535453400E89A59 /* LoginScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D54F2804253545A700E89A59 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D54F2805253545B300E89A59 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D575268D2547D1C6004A2A84 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D554ADCD2536C6130001B199 /* YourDevicesCell.swift */,
+				D54F280925354B6600E89A59 /* HomeScreenView.swift */,
+				D554ADCF2536CD1A0001B199 /* DevicesTableView.swift */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		D575268E2547D1E6004A2A84 /* Device History */ = {
+			isa = PBXGroup;
+			children = (
+				D575268B2547CAA1004A2A84 /* DeviceHistoryView.swift */,
+				D575268F2547D1FF004A2A84 /* DeviceHistoryTableView.swift */,
+				D57526912547D292004A2A84 /* DeviceHistoryCell.swift */,
+			);
+			path = "Device History";
+			sourceTree = "<group>";
+		};
+		D57526932547D8AD004A2A84 /* Forum Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D57526962547D8FB004A2A84 /* ForumSelectionView.swift */,
+				D57526982547DAF7004A2A84 /* ForumTableView.swift */,
+				D575269A2547DB57004A2A84 /* ForumCell.swift */,
+			);
+			path = "Forum Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +355,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				D54F27D12535444B00E89A59 /* ViewController.swift in Sources */,
+				D54F280825354B4E00E89A59 /* HomeScreenViewController.swift in Sources */,
+				D57526902547D1FF004A2A84 /* DeviceHistoryTableView.swift in Sources */,
+				D57526952547D8C3004A2A84 /* ForumScreenController.swift in Sources */,
 				D54F27CD2535444B00E89A59 /* AppDelegate.swift in Sources */,
+				D57526972547D8FB004A2A84 /* ForumSelectionView.swift in Sources */,
+				D554ADD02536CD1A0001B199 /* DevicesTableView.swift in Sources */,
+				D54F280A25354B6600E89A59 /* HomeScreenView.swift in Sources */,
+				D575269B2547DB57004A2A84 /* ForumCell.swift in Sources */,
 				D54F27D62535444B00E89A59 /* ContentView.swift in Sources */,
+				D57526922547D292004A2A84 /* DeviceHistoryCell.swift in Sources */,
+				D575268A2547CA0A004A2A84 /* DeviceHistoryController.swift in Sources */,
+				D575268C2547CAA1004A2A84 /* DeviceHistoryView.swift in Sources */,
+				D54F2800253544D600E89A59 /* LoginScreenViewController.swift in Sources */,
+				D54F28032535453400E89A59 /* LoginScreenView.swift in Sources */,
 				D54F27CF2535444B00E89A59 /* SceneDelegate.swift in Sources */,
+				D57526992547DAF7004A2A84 /* ForumTableView.swift in Sources */,
+				D554ADCE2536C6130001B199 /* YourDevicesCell.swift in Sources */,
+				D54F2806253545B300E89A59 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
