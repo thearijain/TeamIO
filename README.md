@@ -14,8 +14,8 @@ Using an Azure backend along with an xCode based front end I was able to design 
 Note: Still a work in progress, semester is not over yet!
 
 <img src="https://github.com/thearijain/MixIt/blob/master/ReadMePictures/home-cx%207.59.18%20PM.png" width="280" height="600" img align="left">
-<img src="https://media.giphy.com/media/Y1wUJdoH62pOZ6E4N7/giphy.gif" width="280" height="600" img align="left">
-<img src="https://media.giphy.com/media/Y1wUJdoH62pOZ6E4N7/giphy.gif" width="280" height="600" img align="left">
+<img src="https://github.com/thearijain/MixIt/blob/master/ReadMePictures/device-cx.png" width="280" height="600" img align="left">
+<img src="https://github.com/thearijain/MixIt/blob/master/ReadMePictures/forum-cx.png" width="280" height="600" img align="left">
 
 
 
