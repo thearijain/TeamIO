@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import Charts
 
 class HomeScreenView: UIView {
     
@@ -57,10 +58,19 @@ class HomeScreenView: UIView {
         return label
     }()
     
-    let graph: UIImageView = {
-        let image = UIImage(named: "graph")
-        let imageView = UIImageView(image: image!)
-        imageView.contentMode = .scaleAspectFill
+    let graph: LineChartView = {
+        let imageView = LineChartView()
+        imageView.noDataText = "Loading Data..."
+        imageView.noDataTextColor = .white
+        imageView.rightAxis.enabled = false
+        imageView.leftAxis.labelTextColor = .white
+        imageView.leftAxis.labelFont = .systemFont(ofSize: 14)
+        imageView.xAxis.labelFont = .systemFont(ofSize: 14)
+        imageView.xAxis.labelPosition = .bottom
+        imageView.xAxis.labelTextColor = .white
+        imageView.setScaleEnabled(true)
+        imageView.animate(xAxisDuration: 2.5)
+
         return imageView
     }()
     
